@@ -1,0 +1,152 @@
+  @import url('https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@700&family=Poppins:ital@0;1&family=Roboto:wght@300&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body{
+  font-family: 'calibri';
+}
+label , input{
+  color: #333;
+}
+.container {
+  background-image: url(./images/bg-01.webp);
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+form {
+  width: 480px;
+  min-height: 95vh;
+  background: #fff;
+  border-radius: 15px;
+  overflow: hidden;
+  padding: 50px;
+}
+form h1 {
+  text-align: center;
+  font-weight: bold;
+  font-size: 50px;
+  padding-bottom: 25px;
+}
+.name {
+  border-bottom: 2px solid #d9d9d9;
+  padding: 20px;
+}
+
+label {
+  font-size: 18px;
+  display: block;
+  padding-bottom: 15px;
+}
+
+input {
+  border: 0;
+  font-size: 17px;
+  font-weight: bold;
+  padding: 10px;
+}
+
+.forget a {
+  text-decoration: none;
+  color: #333;
+}
+.forget a:hover {
+  color: rgb(177, 75, 177);
+}
+.forget {
+  text-align: right;
+  padding: 8px 0px 10px 0px;
+  font-family: calibri;
+}
+.btn {
+  text-align: center;
+  margin-top: 20px;
+}
+button {
+  background-image: linear-gradient(
+    to right,
+    rgb(124, 158, 210),
+    rgb(189, 105, 189),
+    rgb(247, 110, 204)
+  );
+  min-width: 400px;
+  height: 50px;
+  padding: 15px;
+  font-size: 20px;
+  color: white;
+  font-weight: 600;
+  border: 0px;
+  border-radius: 30px;
+  box-shadow: 2px 5px 10px rebeccapurple;
+}
+h3{
+  text-align: center;
+  margin-top: 70px;
+  font-size: 20px;
+  font-family: calibri;
+  color: #877e7e;
+}
+.icons{
+  width: 250px;
+  height: 50px;
+  margin: 30px auto auto 80px;
+  padding: 10px;
+  padding-left: 20px;
+
+}
+.icons a{
+  padding-left: 8px;
+}
+.icons a i {
+  width: 50px;
+  height: 50px;
+  padding: 12px 10px 12px 14px;
+  border-radius: 50%;
+  color: #ffff;
+  font-size: 30px;
+}
+h4{
+  text-align: center;
+  margin-top: 30px;
+  font-size: 20px;
+  font-family: calibri;
+  color: #877e7e;
+}
+@media screen and (max-width: 610px) {
+  form {
+    width: 300px;
+    
+    min-height: 100vh;
+   
+    padding: 0px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  h1 {
+    margin-top: 10px;
+  }
+  input {
+    padding-left: 5px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  button {
+    min-width: 200px;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 500;
+  }
+  .forget {
+    text-align: right;
+    padding: 10px 10px 10px 0px;
+  }
+}
